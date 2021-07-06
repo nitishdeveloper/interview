@@ -31,5 +31,9 @@ public class App {
         System.out.println("feature2");
     }
 
+    public static void feature3() {
+        System.out.println("feature3");
+    }
+
 
 }

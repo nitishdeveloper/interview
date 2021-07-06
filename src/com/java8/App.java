@@ -14,7 +14,9 @@ public class App {
     public static  void develop1(){
         System.out.println(new StringBuilder().append("Size: ").append("medium").append("-").append("144mm").toString());
     }
-
+    public static  void develop2(){
+        System.out.println(new StringBuilder().append("Size: ").append("medium").append("-").append("144mm").toString());
+    }
 
 
 

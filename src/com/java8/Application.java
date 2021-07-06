@@ -20,4 +20,8 @@ public class Application {
     public static void bugfix5() {
         System.out.println("bugfix5");
     }
+
+    public static void bugfix6() {
+        System.out.println("bugfix6");
+    }
 }

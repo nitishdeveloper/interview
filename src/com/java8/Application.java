@@ -5,11 +5,10 @@ public class Application {
         System.out.println("Hello Application for git test");
     }
 
-    public static void develop() {
+    public static  void develop() {
         System.out.println("test1");
     }
-
-    public static void develop2() {
+    public static  void develop2() {
         System.out.println("test2");
     }
 

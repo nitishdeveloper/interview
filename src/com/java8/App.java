@@ -20,6 +20,9 @@ public class App {
     public static  void bugfix(){
         System.out.println("bugfix");
     }
+    public static  void feature1(){
+        System.out.println("feature1");
+    }
 
 
 }

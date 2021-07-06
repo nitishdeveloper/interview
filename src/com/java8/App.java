@@ -8,7 +8,7 @@ public class App {
     }
 
     public static  void develop(){
-        System.out.println(new StringBuilder().append("Size: ").append("medium").append("-").append("144mm").toString())
+        System.out.println(new StringBuilder().append("Size: ").append("medium").append("-").append("144mm").toString());
     }
 
 

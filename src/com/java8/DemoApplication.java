@@ -9,4 +9,8 @@ public class DemoApplication {
         System.out.println("demo1");
     }
 
+    public static void demo2() {
+        System.out.println("demo2");
+    }
+
 }

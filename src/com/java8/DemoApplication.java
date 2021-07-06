@@ -17,4 +17,8 @@ public class DemoApplication {
         System.out.println("demo3");
     }
 
+    public static void demo4() {
+        System.out.println("demo4");
+    }
+
 }

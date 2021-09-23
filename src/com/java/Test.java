@@ -1,39 +1,56 @@
 package com.java;
 
-class Demo{
+class Demo {
+    int value = 10;
+
+    void print() {
+        System.out.println("hello1");
+    }
+
+    private void print123() {
+        System.out.println("hello1");
+    }
+}
+
+class Demo1 extends Demo {
+    int value = 20;
+
+    void print2() {
+        System.out.println("hello2");
+    }
+
+    private void print123() {
+        System.out.println("hello1");
+    }
+
+    void print() {
+        System.out.println("hello1 demo1");
+    }
 
 }
 
 
-
 public class Test {
     public static void main(String[] args) {
-//        long A[] = {1, 2, 3, 4, 5};
-//        rotate(A,5);
-//        System.out.println(Arrays.toString(A));
-
-        Runnable runnable = () -> System.out.println("test thread class");
-
-
-        Thread thread = new Thread(runnable);
-        thread.start();
-        System.out.println("Main Thread");
+        Demo demo = new Demo1();
+        System.out.println(demo.value);
+        demo.print();
     }
 
-    public static void rotate(long arr[], long n)
-    {
-        if(n == 0) return;
-
-        int len = arr.length;
-        long last_val = arr[len-1];
-        long first_val = arr[0];
-        arr[0] = last_val;
-
-        for(int i = 1; i < len; i++){
-            long next = arr[i];
-            arr[i] = first_val;
-            first_val = next;
-        }
-    }
+//    public static void rotate(long arr[], long n)
+//    {
+//        if(n == 0) return;
+//
+//        int len = arr.length;
+//        long last_val = arr[len-1];
+//        long first_val = arr[0];
+//        arr[0] = last_val;
+//
+//        for(int i = 1; i < len; i++){
+//            long next = arr[i];
+//            arr[i] = first_val;
+//            first_val = next;
+//        }
+//    }
 }
 

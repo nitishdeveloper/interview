@@ -25,8 +25,6 @@ public class ThreadLocalTest {
 
         ExecutorService executorService = Executors.newSingleThreadExecutor();
 
-
-
         new Thread(
                 () -> {
                     threadLocal.set(new StudentContext(UUID.randomUUID().toString()));

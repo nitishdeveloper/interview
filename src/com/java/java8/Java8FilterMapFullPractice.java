@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class Interview1 {
+public class Java8FilterMapFullPractice {
     public static void main(String[] args) {
         Map<Employee, String> map = new HashMap<>();
         Employee e1 = new Employee(100, "Jems1", 10001.00);

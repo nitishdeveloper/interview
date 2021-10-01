@@ -35,6 +35,12 @@ public class Test {
         Demo demo = new Demo1();
         System.out.println(demo.value);
         demo.print();
+
+        String str1 = new String("nitish");
+        String str2 = new String("nitish");
+        System.out.println("result : " + str1 == str2);
+        //System.out.println("result :"+str1.equals(str2));
+
     }
 
 //    public static void rotate(long arr[], long n)
